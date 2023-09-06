@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Charles;
+    src: url(fonts/CharlesBridge-Regular.ttf);
+}  
+
+@font-face {
+    font-family: Now;
+    src: url(fonts/Oh\ Now!.ttf);
+}
+
+html,body{
+    height: auto;
+    background-image: url(../assets/img/Background.jpg);
+    background-size: cover;
+    color: goldenrod;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+header{
+    margin: 50px;
+    text-align: right;
+}
+
+.menu{
+    display: inline-block;
+    margin: 10px;
+}
+
+header >div >h1{
+    font-size: 70px;
+    color: goldenrod;
+}
+
+header a{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 50px;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 goldenrod;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    
+}
+header a:hover{
+    color: black;
+    box-shadow: inset 200px 0 0 0 goldenrod;;
+    
+}
+
+#perfil{
+    width: 450px;
+    margin-top: 33px;
+    margin-bottom: -20px;
+}
+
+#primario{
+    margin: -40px 100px;
+}
+
+#apresentacao{
+    vertical-align: top;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+    width: 675px;
+}
+
+#apresentacao h2{
+    color: white;
+    font-size: 40px;
+}
+
+#apresentacao h1{
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.icones{
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 60px;
+}
+
+#secundario{
+    margin: 0 100px;
+}
+
+#historia{
+    vertical-align: top;
+    text-align: left;
+    width: 700px;
+    margin-right: 50px;
+}
+
+#foto_casal{
+    border: 15px solid white;
+    border-bottom: 70px solid white;
+}
+
+#foto_campo{
+    border: 15px solid white;
+    border-bottom: 70px solid white;
+    margin-left: 150px;
+}
+
+#descricao_01{
+    color: black;
+    font-family: Charles;
+    font-size: 60px;
+    position: absolute;
+    top: 430px;
+    right: 330px;
+}
+
+#descricao_02{
+    color: black;
+    font-family: Charles;
+    font-size: 60px;
+    position: absolute;
+    top: 730px;
+    right: 230px;
+}
+
+.icon{
+    width: 150px;
+    margin-right: 35px;
+    margin-left: 20px;
+}
+#terciario{
+    margin-left:200px;
+}
+
+#terciario div > p{
+    text-align: center;
+}
+
+#texto{
+    margin-left: 250px;
+}
+
+#texto>h1{
+    margin: 50px 200px;
+    color: white;
+    font-size: 50px;
+}
+
+b{
+    color: white;
+}
+
+#texto>h2{
+    font-size: 30px;
+}
+
+#texto>h3{
+    padding-left: 20px;
+    font-size: 25px;
+}
+
+#texto>h4{
+    padding-left: 75px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.projeto{
+    border: 20px solid white;
+    border-bottom: 70px solid white;
+    margin-right: 150px;
+}
+#des_proj_01{
+    color: black;
+    font-family: Now;
+    font-size: 50px;
+    position: absolute;
+    top: 585px;
+    left: 320px;
+}
+
+#des_proj_02{
+    color: black;
+    font-family: Now;
+    font-size: 50px;
+    position: absolute;
+    left: 920px;
+    top: 585px;
+}
+
+#quaternario{
+    margin: 50px 0;
+    margin-left: 270px;
+}
